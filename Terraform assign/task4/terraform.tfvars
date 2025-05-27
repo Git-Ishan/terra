@@ -1,0 +1,9 @@
+aws_region         = "us-east-1"
+network_cidr_block = "172.31.0.0/16"
+zone_count         = 2
+database_password  = "MainPassword123"
+zones_list         = ["us-east-1a", "us-east-1b"]
+ssh_key            = "keypair_value"
+vm_type            = "t3.micro"
+image_id           = "ami-084568db4383264d4"
+bootstrap_script   = ""
